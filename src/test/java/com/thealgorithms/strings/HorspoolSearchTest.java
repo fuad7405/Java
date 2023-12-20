@@ -82,6 +82,5 @@ class HorspoolSearchTest {
     @Test
     void testFindFirstTextNull() {
         assertThrows(NullPointerException.class, () -> HorspoolSearch.findFirst("Hello", null));
-    }
-    
+    }    
 }
